@@ -1,0 +1,48 @@
+.c_issue{
+    width: 100%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        background-color: rgba(0, 0, 255, 0);
+    color:white
+}
+
+.imgload{
+    margin-left: 10px;
+    width: 93%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+}
+.kanji{
+    width: 40px;
+    height: 40px;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    border-top: 3px solid #07ffde00;
+    border-bottom: 3px solid #07ffde00;
+    border-radius: 40px;
+    background-color: rgba(255, 0, 68, 0);
+   
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kanji {
+    animation: kanji-spin infinite 700ms linear;
+  }
+}
+  
+  @keyframes kanji-spin {
+    from {
+      transform: rotate(0deg);
+    }
+   
+    to{
+     transform: rotate(360deg);
+    }
+  }

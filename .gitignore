@@ -1,0 +1,3 @@
+#ingnore files && dependencies
+node_modules
+.env
