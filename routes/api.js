@@ -36,8 +36,8 @@ const upload = multer({
 })
 
 const s3Client = new AWS.S3({
-    accessKeyId: 'AKIAYVEJBAG5U73XDZUM',
-    secretAccessKey: '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',
+    accessKeyId: process.env.accessKeyId,
+    secretAccessKey:process.env.secretAccessKey,
    // region :'US East (Ohio) us-east-2'
    correctClockSkew: true,  
 });
