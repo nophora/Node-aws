@@ -13,7 +13,6 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 
-
 mongoose.connect(process.env.MONGODB_URL|| 'mongodb://localhost/platformmovies', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
